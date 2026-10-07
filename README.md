@@ -9,8 +9,9 @@ The first family is a decision procedure for 2-SAT. It always answers, and the n
 | Family | Subject | Status |
 | --- | --- | --- |
 | 001 | 2-SAT is decidable in linear time | Checked against brute force for n ≤ 10 |
+| 002 | 3-SAT is decided exactly, not in polynomial time | Checked against brute force for n ≤ 10 |
 
-Start with [CONTENTS.md](CONTENTS.md). The note is in [preprints/2-sat-linear](preprints/2-sat-linear/paper.md). The procedure is [src/two_sat.py](src/two_sat.py).
+Start with [CONTENTS.md](CONTENTS.md). Family 001 is [preprints/2-sat-linear](preprints/2-sat-linear/paper.md) and [src/two_sat.py](src/two_sat.py). Family 002 is [preprints/3-sat-exact](preprints/3-sat-exact/paper.md) and [src/three_sat.py](src/three_sat.py).
 
 ```bash
 python tests/test_two_sat.py
